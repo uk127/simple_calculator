@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layer">
+        <input id="inp" readonly>
+    <div class="top_buttons">
+        <button id="c" onclick="clr()">C</button>
+        <button id="del" onclick="del()">←</button>
+    </div>
+        <div class="btn_grid">
+        <button id="plus" onclick="todisp('+')">+</button>
+        <button id="b7" onclick="todisp('7')">7</button>
+        <button id="b8" onclick="todisp('8')">8</button>
+        <button id="b9" onclick="todisp('9')">9</button>
+        <button id="minus" onclick="todisp('-')">-</button>
+        <button id="b4" onclick="todisp('4')">4</button>
+        <button id="b5" onclick="todisp('5')">5</button>
+
+        <button id="b2" onclick="todisp('6')">6</button>
+
+        <button id="star" onclick="todisp('*')">*</button>
+        <button id="b1" onclick="todisp('1')">1</button>
+        <button id="b2" onclick="todisp('2')">2</button>
+        <button id="b2" onclick="todisp('3')">3</button>
+
+        <button id="slash" onclick="todisp('/')">/</button>
+        <button id="b2" onclick="todisp('.')">.</button>
+        <button id="b2" onclick="todisp('0')">0</button>
+        <button id="eq" onclick="calculate()">=</button>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
